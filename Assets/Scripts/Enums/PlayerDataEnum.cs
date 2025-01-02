@@ -1,0 +1,19 @@
+public enum PlayerDataEnum
+{
+    minutes,
+    kills,
+    jumps,
+    damage_received,
+    frequency_barringtonia,
+    frequency_spaggetti,
+    frequency_jelly,
+    frequency_hot_tea,
+    frequency_cake,
+    frequency_melee_attack,
+    impact_barringtonia,
+    impact_spaggetti,
+    impact_jelly,
+    impact_hot_tea,
+    impact_cake,
+    impact_melee_attack,
+}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bold 1
+  m_Shader: {fileID: 4800000, guid: dd89cf5b9246416f84610a006f916af7, type: 3}
+  m_Parent: {fileID: 2100000, guid: bedffd1aac644d342ac3f13c720f1739, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BEVEL_ON
+  - UNDERLAY_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 28684132378477856, guid: 0653b205094e1b74fb166373f47a0607,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 1
+    - _Bevel: 1
+    - _BevelClamp: 0
+    - _BevelOffset: 0.071
+    - _BevelRoundness: 0
+    - _BevelWidth: -0.304
+    - _Diffuse: 0
+    - _FaceDilate: 1
+    - _Glossiness: 0.5
+    - _GradientScale: 10
+    - _OutlineSoftness: 0
+    - _OutlineWidth: 0.486
+    - _Reflectivity: 15
+    - _ScaleRatioA: 0.537795
+    - _ScaleRatioB: 0
+    - _ScaleRatioC: 0
+    - _Sharpness: 1
+    - _SpecularPower: 2.68
+    - _TextureHeight: 1024
+    - _TextureWidth: 1024
+    - _WeightBold: 0.75
+    m_Colors:
+    - _OutlineColor: {r: 0.028426038, g: 0.003676507, b: 0.001517635, a: 1}
+  m_BuildTextureStacks: []

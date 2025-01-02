@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1818857467277233722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4754011252816803712}
+  - component: {fileID: 1772429514884326391}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754011252816803712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818857467277233722}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -84.06159, y: 4.7626657, z: -88.81688}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2498940206102187481}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772429514884326391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818857467277233722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f68ab0bc3fcf9d4187c67c101b20b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 1
+  ambienceVolume: 1
+  SFXVolume: 1
+--- !u!1 &4921342592661260029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2498940206102187481}
+  - component: {fileID: 520494134632935516}
+  m_Layer: 0
+  m_Name: FMOD Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2498940206102187481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921342592661260029}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4754011252816803712}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520494134632935516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921342592661260029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6bc694074c6c24184310e0acaf9691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <musicMainTitle>k__BackingField:
+    Guid:
+      Data1: 1712488541
+      Data2: 1291916599
+      Data3: 647879307
+      Data4: -286911562
+    Path: event:/Music/MainTitle
+  <musicMainMenu>k__BackingField:
+    Guid:
+      Data1: 992438722
+      Data2: 1245744705
+      Data3: 222393491
+      Data4: -281221524
+    Path: event:/Music/MainMenu
+  <musicLevel1>k__BackingField:
+    Guid:
+      Data1: 1673013260
+      Data2: 1195678059
+      Data3: -1199434872
+      Data4: 2144443740
+    Path: event:/Music/Level1
+  <musicVictory>k__BackingField:
+    Guid:
+      Data1: 406729401
+      Data2: 1327460966
+      Data3: 1162336896
+      Data4: -1206312680
+    Path: event:/Music/Victory
+  <musicGameOver>k__BackingField:
+    Guid:
+      Data1: -1149382305
+      Data2: 1254636762
+      Data3: 396029579
+      Data4: 275017359
+    Path: event:/Music/GameOver
+  <musicBossOwlLevel2>k__BackingField:
+    Guid:
+      Data1: -2106868241
+      Data2: 1209013088
+      Data3: 191193524
+      Data4: 1548103776
+    Path: event:/Music/BossOwlLevel2
+  <backSound>k__BackingField:
+    Guid:
+      Data1: -1741944612
+      Data2: 1311563558
+      Data3: 728133793
+      Data4: -1134941495
+    Path: event:/SFX/UI/BackSound
+  <changeOptionSound>k__BackingField:
+    Guid:
+      Data1: -1439291283
+      Data2: 1134581397
+      Data3: -522748254
+      Data4: -631125360
+    Path: event:/SFX/UI/ChangeOptionSound
+  <startSound>k__BackingField:
+    Guid:
+      Data1: -1790697846
+      Data2: 1242354089
+      Data3: 1377439678
+      Data4: 1293307478
+    Path: event:/SFX/UI/StartSound
+  <confirmChangeSound>k__BackingField:
+    Guid:
+      Data1: 50853947
+      Data2: 1212149977
+      Data3: 1774334639
+      Data4: 1080671985
+    Path: event:/SFX/UI/ConfirmChangeSound
+  <confirmSound>k__BackingField:
+    Guid:
+      Data1: -1799890079
+      Data2: 1307425208
+      Data3: 1952962472
+      Data4: -871762280
+    Path: event:/SFX/UI/ConfirmSound
+  <moveMenuSound>k__BackingField:
+    Guid:
+      Data1: 601624383
+      Data2: 1092855933
+      Data3: 1171169165
+      Data4: -1107946859
+    Path: event:/SFX/UI/MoveMenuSound
+  <gaussJump>k__BackingField:
+    Guid:
+      Data1: -1046288326
+      Data2: 1324641925
+      Data3: -401494907
+      Data4: 1089866331
+    Path: event:/SFX/_Gauss/GaussJump
+  <gaussSteps>k__BackingField:
+    Guid:
+      Data1: 1200926911
+      Data2: 1090720035
+      Data3: 1073389502
+      Data4: -1933864083
+    Path: event:/SFX/_Gauss/GaussSteps
+  <gaussClaws>k__BackingField:
+    Guid:
+      Data1: 1227416941
+      Data2: 1132923418
+      Data3: 1223015850
+      Data4: 1870165523
+    Path: event:/SFX/_Gauss/GaussClaws
+  <bossIntroduction>k__BackingField:
+    Guid:
+      Data1: 2034497084
+      Data2: 1172184628
+      Data3: -2087816315
+      Data4: 837627136
+    Path: event:/SFX/Boss Dingo/Introduction
+  <bossHurtSound>k__BackingField:
+    Guid:
+      Data1: -552758831
+      Data2: 1302446505
+      Data3: 1776440764
+      Data4: -1686800599
+    Path: event:/SFX/Boss Dingo/HurtSound
+  <bossKO>k__BackingField:
+    Guid:
+      Data1: -348601111
+      Data2: 1128826041
+      Data3: 1748541886
+      Data4: 682993009
+    Path: event:/SFX/Boss Dingo/BossKO
+  <dingoEnemyDie>k__BackingField:
+    Guid:
+      Data1: -1767316734
+      Data2: 1076335645
+      Data3: -275521123
+      Data4: -1304983594
+    Path: event:/SFX/Dingo Enemy/DingoEnemyDie
+  <dingoEnemySteps>k__BackingField:
+    Guid:
+      Data1: -1032248276
+      Data2: 1300761647
+      Data3: 328755646
+      Data4: 1834176562
+    Path: event:/SFX/Dingo Enemy/DingoEnemySteps
+  <foodArmShootNormal>k__BackingField:
+    Guid:
+      Data1: -416311317
+      Data2: 1276848904
+      Data3: 944293809
+      Data4: -1729176093
+    Path: event:/SFX/Weapons/FoodArmShootNormal
+  <projectileImpact>k__BackingField:
+    Guid:
+      Data1: 641898728
+      Data2: 1244202279
+      Data3: -782892664
+      Data4: -1782019050
+    Path: event:/SFX/Weapons/ProjectileImpact
+  <swordSwing>k__BackingField:
+    Guid:
+      Data1: -1393572717
+      Data2: 1187861205
+      Data3: -1901814897
+      Data4: 1453644303
+    Path: event:/SFX/Weapons/SwordSwing
+  <brokeMunitionBox>k__BackingField:
+    Guid:
+      Data1: -1651086346
+      Data2: 1307284280
+      Data3: 964614798
+      Data4: -1265510902
+    Path: event:/SFX/Objets/BrokeMunitionBox
